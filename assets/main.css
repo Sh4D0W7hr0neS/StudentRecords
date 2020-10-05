@@ -1,0 +1,251 @@
+﻿body{
+    background-image: url("images/bms8.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#maincont{
+    padding:0mm;
+}
+/*-------------------Header--------------------------*/
+#hicon{
+    width:20%;
+}
+#header {
+    background-color: white;
+}
+/*-------------------Banner--------------------------*/
+#bannerOuter{
+    align-content:center;
+}
+#bannerInner {
+    border: dashed black 1mm;
+    border-radius: 5mm;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    margin-top: 10%
+}
+.loginButton {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #3498db;
+    color: #fff;
+    margin-bottom: 2%;
+}
+.loginButton:hover{
+    background-color: #4aa3df;
+}
+h1{
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+/*-------------------Modal Main--------------------------*/
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modalMainOuter {
+    width: 390px;
+    margin: 13% auto 15% auto;
+}
+.modalMainCont {
+    background-color: lightgrey;
+    margin: 13% auto 15% auto;
+    border: 1px solid #888;
+    width: 390px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 33px 55px 33px 55px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+/*-------------------Modal Containers--------------------------*/
+#cancelbutton {
+    position:relative;
+    left:45px;
+    bottom:35px;
+    cursor:pointer;
+}
+#modalHeader {
+    margin-top:0mm;
+    margin: 5mm;
+    text-align: center;
+}
+#modalPic {
+    margin: 5mm;
+}
+#modalInput {
+    margin: 5mm;
+    text-align: center;
+}
+#modalButton {
+    margin: 5mm;
+    text-align: center;
+}
+#modalFooter {
+    margin:5mm;
+    text-align: center;
+}
+.wrap-input100{
+    text-transform:uppercase;
+}
+/*-------------------Modal Elements--------------------------*/
+#modalpic1 {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+input{
+    border: 0mm;
+    border-bottom: 1px solid black;
+    margin-bottom:10px;
+}
+#forgotGo {
+    color: #3498db;
+    cursor:pointer;
+}
+#forgotReturn {
+    color: #3498db;
+    cursor: pointer;
+}
+
+
+
+/*------------------------------------------------------------------MAIN PAGE----------------------------------------------------------------*/
+.container-fluid {
+    height: 100%;
+}
+.row {
+    margin: auto;
+    height: 100%;
+    margin-top: 1%;
+    display: table;
+}
+.column {
+    height: 100%;
+    background-color: #e7eeef;
+    display: table-cell;
+}
+.infoContent {
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem;
+}
+#USN{
+    text-transform:uppercase;
+}
+.content {
+    width: 600px;
+    height: 200px;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contentHeading{
+    font-size: large;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 5px;
+    width: 150px;
+    display: inline-block;
+}
+.addButton {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+/*------------------------------------------------------------------MAIN PAGE----------------------------------------------------------------*/
+#formInner {
+    border: dashed black 1mm;
+    border-radius: 5mm;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin-top: 5%
+}
+#formCont {
+    text-align: left;
+    background-color: white;
+    width: 50%;
+    margin-bottom: 5%;
+}
+#submitButton{
+    margin-top:5%;
+    text-align:center;
+}
+/*------------------------------------------------------------------Faulty PAGE----------------------------------------------------------------*/
+.columnFaulty {
+    width: 1000px;
+    height: 100%;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#tableMain {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tableMain td, #tableMain th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#tableMain tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tableMain tr:hover {
+    background-color: #ddd;
+    cursor:pointer;
+}
+
+#tableMain thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3498db;
+    color: white;
+}
+.tcolumn {
+    height: 100%;
+    background-color: #e7eeef;
+    padding: 1%;
+}
+.tableContainer{
+    padding:2%;
+}
