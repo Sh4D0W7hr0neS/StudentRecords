@@ -1,0 +1,104 @@
+/*General*/
+body {
+    background-color: #181A24;
+    color: #c0c2c4;
+    font-family: "Signika", sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+
+form {
+	margin: 0 0 2em 0;
+}
+
+button{
+    background-color: #041625;
+    color: #ffffff !important;
+}
+button:hover{
+    background-color: #06243c;
+}
+button:active{
+    background-color: #02080e;
+}
+/*Page*/
+.outer_wrapper{
+    width: auto;
+}
+/*Header*/
+
+.header_wrapper{
+    width: auto;
+}
+header {
+    background-color: white;
+}
+.header_logo{
+    width: auto;
+}
+/*Form*/
+.form_outer_wrapper{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.form_wrapper{
+    width: 30%;
+    margin-top: 5%;
+    background-color: #142736;
+    border-radius: 10px
+}
+,
+.form_wrapper{
+    width: auto;
+}
+/*Form Header*/
+.form_header{
+    align-content: center;
+    display:block;
+}
+.form_header_title{
+    display: flex;
+    justify-content: center;
+}
+.form_header_icon{
+    display: flex;
+    justify-content: center;
+}
+.header_icon{
+    width: 40%;
+    border-radius: 50%;
+}
+.header_title{
+    font-size: 150%
+}
+/*Form Inputs*/
+.form_inputs{
+    margin-top: 10%;
+}
+.form_inputs_password,
+.form_inputs_email{
+    width: 80%;
+    padding-left: 10%
+}
+#form_inputs_password,
+#form_inputs_email{
+    width: 100%;
+    margin-top: 2.5%;
+}
+.form_inputs_button{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+#form_inputs_button{
+    font-size: 150%;
+}
+/*Form Footers*/
+.form_footer_password,
+.form_footer_register{
+    display: flex;
+    justify-content: center;
+}
